@@ -8,6 +8,9 @@
 }
 
 /* Shared Style */
+section{
+    padding: 70px 0;
+}
 .sec-bg{
     background-color: #FFF8F3;
 }
@@ -26,6 +29,13 @@
     background-color: #FD6E0A;
     border: none;
     border-radius: 10px;
+}
+.text-center{
+    text-align: center;
+}
+
+.section-title{
+    font-size: 30px;
 }
 
 /* Nav Style Start */
@@ -103,4 +113,59 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+
+/* Experience Starts */
+.exp-heading{
+    padding: 0 80px 40px 70px;
+}
+
+.exp-container{
+    display: flex;
+    gap: 24px;
+}
+
+.single-exp{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Resume Start */
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+.single-resume h4{
+    margin: 0;
+}
+
+.single-resume h4, h5{
+    margin: 5px 0;
+}
+
+/* Footer Start */
+.footer-container{
+    max-width: 930px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-column ul{
+    padding: 0;
+}
+
+.footer-column ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.footer-column input[type="text"], input[type="email"], textarea{
+    display: block;
+    padding: 20px 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
 }
