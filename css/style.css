@@ -8,6 +8,9 @@
 }
 
 /* Shared Style */
+.sec-bg{
+    background-color: #FFF8F3;
+}
 .primary-color{
     color: #FD6E0A;
 }
@@ -81,4 +84,23 @@ nav ul li a{
 
 .banner img{
     width: 400px;
+}
+
+/* Main Styles */
+main{
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+/* About Styles */
+.about{
+    margin-top: 70px;
+    padding: 70px 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
